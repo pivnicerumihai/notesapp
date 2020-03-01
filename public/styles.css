@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+    background-color: gainsboro;
+    font-family: "Pacifico", cursive;
+}
+
+span {
+    float: left;
+    margin-left: 20px;
+}
+
+textarea {
+    background-color: rgb(19, 19, 55);
+    color: white;
+    border: none;
+    border-bottom: 3px solid white;
+    font-size: 20px;
+    font-family: "Pacifico",cursive;
+    resize:none;
+    outline:0;
+}
+
+textarea:focus {
+    outline-width: 0px;
+
+}
+
+.title {
+    margin-top: 10px;
+    width: 90%;
+    height:5vh;
+}
+
+.content {
+    margin-top: 10px;
+    display: block;
+    width: 90%;
+    height: 15vh;
+    max-width: 90%;
+}
+
+button {
+    color: black;
+    background-color: yellow;
+    border: 1px solid black;
+    padding:6px
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.displayNone{
+    display:none;
+}
+.saveButton {
+    position:absolute;
+    bottom:10px;
+    left:15px
+}
